@@ -2,18 +2,45 @@
 body {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
+.title {
+    color: white;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.introButton {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.lower {
+    color: lightgray;
+}
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 20px;
 }
 
 .logo {
     width: 100%;
     height: auto;
+}
+
+.introHorizontal {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.mainImage {
+    max-height: 300px;
 }
 
 .circularPortrait {
@@ -27,7 +54,7 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 20px;
 }
 
 ul li a {
@@ -39,6 +66,15 @@ ul li a {
 .intro {
     background-color: #1F2937;
 }
+
+.intro {
+    padding: 100px 0px;
+}
+
+.middle {
+    text-align: center;
+}
+
 
 .middle,
 .footer {
