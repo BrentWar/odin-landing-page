@@ -1,0 +1,50 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+}
+
+.circularPortrait {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+}
+
+ul li a {
+    color: lightgray;
+    text-decoration-line: none;
+}
+
+.header,
+.intro {
+    background-color: #1F2937;
+}
+
+.middle,
+.footer {
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
