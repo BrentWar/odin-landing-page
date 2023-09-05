@@ -37,10 +37,12 @@ body {
     height: auto;
 }
 
+
 .introHorizontal {
     display: flex;
     justify-content: space-between;
-    padding: 10px;
+    padding: 50px;
+    gap: 20px;
 }
 
 .mainImage {
@@ -124,11 +126,37 @@ ul li a {
 
 .citation {
     text-align: end;
-    padding: 0px 80px;
+    padding: 0px 80px 80px;
     font-weight: bold;
 }
 
+.call {
+    padding: 40px 80px;
+}
+
 .call .box {
-    padding 20px;
     background-color: #3882F6;
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+
+}
+
+.boxLeft {
+    color: white;
+    vertical-align: middle;
+}
+
+.endButton {
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0px;
 }
